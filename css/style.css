@@ -629,7 +629,133 @@ button {
 }
 
 }
+@media only screen and (max-width:768px){
+    .main-nav {
+    width: 100%;
+    padding: 5% 0% 0% 5%;
+    float: left;
+}
 
+.main-nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.main-nav ul li a {
+    font-size: 100%;
+    text-decoration: none;
+    color: black ;
+}
+
+.main-nav ul li a:hover {
+    color: var(--mauhong);
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: white;
+}
+
+.dropdown-content a {
+    display: block;
+    border-top: 1px white solid;
+    color: #000000;
+    padding: 0% 0%;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: var(--mauhong);
+}
+
+    .img-about-header-logo {
+    width: 100px;
+    padding: 0px 7%;
+}
+
+.about-main {
+    font-family: 'Neue Machina';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.about-main h1 {
+    text-align: center;
+    font-family: 'Neue Machina';
+    font-weight: bold;
+    font-style: normal;
+    margin-top:30%;
+    font-size: 50px;
+    border-bottom:1px var(--mauhong) solid
+}
+
+.about-content-text {
+    padding: 0px 0% 0px 0%;
+}
+
+.about-content-text p {
+    font-size: 100%px;
+}
+
+.about-img {
+    padding-right: 0%;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-content {
+    display: block;
+    justify-content: center;
+    border-bottom:1px var(--mauhong) solid
+}
+
+.about-content h3 {
+    font-family: 'Neue Machina';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    margin: 0;
+}
+
+.about-person {
+    padding: 0px 0% 0px 0%;
+}
+
+.about-person h3 {
+    font-family: 'Neue Machina';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    margin: 0;
+}
+
+.about-person img {
+    width: 32%;
+    margin-top: 2%;
+}
+
+}
 
 /* set the width and height of your scrollbar */
 ::-webkit-scrollbar {
