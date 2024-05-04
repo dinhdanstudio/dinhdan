@@ -683,36 +683,6 @@ button {
     color: var(--mauhong);
 }
 
-.dropdown {
-    display: inline-block;
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    width: 100%;
-    overflow: auto;
-    text-align: center;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    background-color: white;
-}
-
-.dropdown-content a {
-    display: block;
-    border-top: 1px white solid;
-    color: #000000;
-    padding: 0% 0%;
-    text-decoration: none;
-}
-
-.dropdown-content a:hover {
-    color: var(--mauhong);
-}
-
     .img-about-header-logo {
     width: 100px;
     padding: 0px 7%;
