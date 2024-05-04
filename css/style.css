@@ -431,15 +431,13 @@ form {
 }
 .main-nav-mobile {
     width:100%;
-    padding: 0% 0% 0% 5%;
-    float: left;
     background-color:var(--mauhong);
 }
 
 .main-nav-mobile ul {
     margin: 0;
     list-style: none;
-    padding:0;
+    padding: 0% 0% 0% 5%;
 }
 
 .main-nav-mobile ul li {
