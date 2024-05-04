@@ -91,9 +91,10 @@ header{
     background-color: white;
 }
 .dropdown-content a {
-    display: block;
+    display:block;
+    border-top:1px white solid;
     color: #000000;
-    padding: 5px;
+    padding: 0% 0%;
     text-decoration: none;
 }
 .dropdown-content a:hover {
