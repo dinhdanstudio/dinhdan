@@ -480,12 +480,12 @@ form {
     color: white;
 }
 
-.dropdown {
+.dropdown-mobile {
     display: inline-block;
     position: relative;
 }
 
-.dropdown-content {
+.dropdown-content-mobile {
     display: none;
     position: absolute;
     width: 100%;
@@ -493,12 +493,12 @@ form {
     text-align: center;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown-mobile:hover .dropdown-content-mobile {
     display: block;
     background-color: var(--mauhong);
 }
 
-.dropdown-content a {
+.dropdown-content-mobile a {
     display: block;
     color: #000000;
     padding: 5px;
