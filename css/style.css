@@ -389,6 +389,27 @@ form {
 .shop-nav ul li a:hover{
     color: var(--mauhong);
 }
+.shop-nav-ban{
+    text-align: center;
+    padding-left:120px;
+}
+.shop-nav-ban ul{
+    list-style: none;
+}
+
+.shop-nav-ban ul li{
+    display: inline;
+    margin-left: 20px;
+    
+}
+.shop-nav-ban ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black ;
+}
+.shop-nav-ban ul li a:hover{
+    color: var(--mauhong);
+}
 /* set the width and height of your scrollbar */
 ::-webkit-scrollbar {
     width: 5px;
@@ -766,6 +787,28 @@ button {
 }
 
 .shop-nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black ;
+    
+}
+    .shop-nav-ban {
+    text-align: center;
+    border-style: solid;
+    padding:0;    
+}
+
+.shop-nav-ban ul {
+    list-style: none;
+    padding:0;
+}
+
+.shop-nav-ban ul li {
+    display: inline;
+    margin: 4%;
+}
+
+.shop-nav-ban ul li a {
     font-size: 20px;
     text-decoration: none;
     color: black ;
