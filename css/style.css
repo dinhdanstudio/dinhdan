@@ -389,7 +389,33 @@ form {
 .shop-nav ul li a:hover{
     color: var(--mauhong);
 }
-
+/* set the width and height of your scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 20px;
+    background-color:#FFFFFF;
+  }
+  
+  
+  /*style the track of your scrollbar*/
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+  }
+  
+  /*change background color of your scrollbar on hover*/
+  ::-webkit-scrollbar:hover {
+    background-color: #FFFFFF;
+  } 
+  
+  
+  /*style the thumb of your scrollbar*/
+  ::-webkit-scrollbar-thumb {
+    background: var(--mauhong); 
+    border-radius: 0px;
+    box-shadow: 0px 0px 15px #FFFFFF; 
+  
+  }
 @media only screen and (max-width: 768px) {
     html{
         width:100%;
@@ -757,33 +783,7 @@ button {
 
 }
 
-/* set the width and height of your scrollbar */
-::-webkit-scrollbar {
-    width: 5px;
-    height: 20px;
-    background-color:#FFFFFF;
-  }
-  
-  
-  /*style the track of your scrollbar*/
-  ::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background-color: #FFFFFF;
-  }
-  
-  /*change background color of your scrollbar on hover*/
-  ::-webkit-scrollbar:hover {
-    background-color: #FFFFFF;
-  } 
-  
-  
-  /*style the thumb of your scrollbar*/
-  ::-webkit-scrollbar-thumb {
-    background: var(--mauhong); 
-    border-radius: 0px;
-    box-shadow: 0px 0px 15px #FFFFFF; 
-  
-  }
+
 
 @font-face {
     font-family: 'Neue Machina';
