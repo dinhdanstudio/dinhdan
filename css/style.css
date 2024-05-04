@@ -434,23 +434,23 @@ form {
     background-color:var(--mauhong);
 }
 
-.main-nav ul {
+.main-nav-mobile ul {
     margin: 0;
     list-style: none;
     padding:0;
 }
 
-.main-nav ul li {
+.main-nav-mobile ul li {
     display: inline;
     margin-left: 10px;
 }
 
-.main-nav ul li a {
+.main-nav-mobile ul li a {
     font-size: 80%;
     text-decoration: none;
     color: white ;
 }
-.main-nav ul li a:hover {
+.main-nav-mobile ul li a:hover {
     color: white;
 }
 
