@@ -56,7 +56,9 @@ header{
     float:right;
     padding-right: 8%;
 }
-
+.main-mobile{
+    display:none;
+}
 .main-nav ul{
     margin: 30px;
     list-style: none;
