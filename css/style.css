@@ -431,7 +431,7 @@ form {
     width:100%;
     padding: 0% 0% 0% 5%;
     float: left;
-    background-color:var(--mauhong);
+    
 }
 
 .main-nav ul {
@@ -484,6 +484,7 @@ form {
 .main-mobile{
     display:block;
     margin-top:5px;
+    background-color:var(--mauhong);
 }
 
 .cate-main {
