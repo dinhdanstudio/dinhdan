@@ -756,7 +756,7 @@ button {
 
     .img-about-header-logo {
     width: 100px;
-    padding: 0px 7%;
+    padding: 5% 0% 0% 7%;
 }
 
 .about-main {
@@ -776,7 +776,7 @@ button {
 }
 
 .about-content-text {
-    padding: 0px 0% 0px 0%;
+    padding: 0px 2% 0px 2%;
 }
 
 .about-content-text p {
@@ -801,12 +801,12 @@ button {
     font-family: 'Neue Machina';
     font-weight: normal;
     font-style: normal;
-    font-size: 50px;
+    font-size: 45px;
     margin: 0;
 }
 
 .about-person {
-    padding: 0px 0% 0px 0%;
+    padding: 0px 0% 0px 2%;
 }
 
 .about-person h3 {
