@@ -504,7 +504,7 @@ form {
     font-family: 'Neue Machina';
     font-weight: normal;
     font-style: normal;
-    padding-bottom: 20%;
+    padding-bottom: 0;
 }
 
 .main-header h1 {
@@ -536,7 +536,7 @@ form {
 .main-nav-mobile ul {
     margin: 0;
     list-style: none;
-    padding: 0% 0% 0% 5%;
+    padding: 0% 0% 0% 10%;
 }
 
 .main-nav-mobile ul li {
@@ -545,7 +545,7 @@ form {
 }
 
 .main-nav-mobile ul li a {
-    font-size: 65%;
+    font-size: 70%;
     text-decoration: none;
     color: white ;
 }
