@@ -459,6 +459,32 @@ form {
 .shop-nav-ban ul li a:hover{
     color: var(--mauhong);
 }
+
+.faq-main{
+    font-family: 'Neue Machina';
+    font-weight: normal;
+    font-style: normal;
+}
+.faq-main h1{
+    text-align: center;
+    font-family: 'Neue Machina';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 70px;
+}
+.faq-content{
+    justify-content: center;
+}
+.faq-content-text{
+    padding: 10px 20% 10px 20%;
+}
+.faq-content-text p{
+    font-size: 25px;
+}
+.faq-content-text h3{
+    font-size: 40px;
+    margin: 0;
+}
 /* set the width and height of your scrollbar */
 ::-webkit-scrollbar {
     width: 5px;
@@ -866,6 +892,32 @@ button {
 
 .collection-container{
     padding: 0px 5% 25% 5%;
+}
+.faq-main{
+    font-family: 'Neue Machina';
+    font-weight: normal;
+    font-style: normal;
+}
+.faq-main h1{
+    text-align: center;
+    font-family: 'Neue Machina';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 70px;
+    margin-top: 100px;
+}
+.faq-content{
+    justify-content: center;
+}
+.faq-content-text{
+    padding: 10px 20% 10px 20%;
+}
+.faq-content-text p{
+    font-size: 15px;
+}
+.faq-content-text h3{
+    font-size: 20px;
+    margin: 0;
 }
 }
 
